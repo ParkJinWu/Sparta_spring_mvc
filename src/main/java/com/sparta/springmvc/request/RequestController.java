@@ -45,7 +45,7 @@ public class RequestController {
     // Header
     //  Content type: application/x-www-form-urlencoded
     // Body
-    //  name=Robbie&age=95
+    //  @ModelAttribute ➡️ Body에 넣어 놓은 데이터(name=ZINU&age=123)를 객체 형태로 처리
     @PostMapping("/form/model")
     @ResponseBody
     public String helloRequestBodyForm(@ModelAttribute Star star) {

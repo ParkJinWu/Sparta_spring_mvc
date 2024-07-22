@@ -65,7 +65,7 @@ public class RequestController {
     // Header
     //  Content type: application/json
     // Body
-    //  {"name":"Robbie","age":"95"}
+    //  {"name":"ZINU","age":"111"}
     @PostMapping("/form/json")
     @ResponseBody
     public String helloPostRequestJson(@RequestBody Star star) {
